@@ -1,0 +1,12 @@
+{
+  "name": "base-power-survey-app",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env.local --watch server.mjs",
+    "start": "node --env-file-if-exists=.env.local server.mjs",
+    "check": "node --check server.mjs"
+  },
+  "type": "module"
+}
